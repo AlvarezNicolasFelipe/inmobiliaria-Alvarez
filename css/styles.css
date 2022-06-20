@@ -1,0 +1,369 @@
+/*  -------- IMPORT  --------*/
+
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Plus+Jakarta+Sans&display=swap");
+
+/* -------- PROPIEDADES COMPARTIDAS -------- */
+
+.encabezado-contacto,
+.contact,
+footer {
+  font-family: "Karla", sans-serif;
+}
+
+.encabezado-contacto,
+.footer {
+  background-color: #f5cba7;
+  color: rgb(46, 64, 83);
+  font-size: 1.2rem;
+}
+
+/* -------- NAV -------- */
+
+nav {
+  font-size: 1.1rem;
+}
+
+.logo {
+  width: 30%;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+  color: black;
+}
+
+nav div ul li a {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+
+/* -------- HOVER -------- */
+
+nav ul li a:hover {
+  color: black;
+  font-weight: 600;
+
+  /*Subrayado animado*/
+  background-size: 100% 2px;
+  color: rgb(229, 152, 102);
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item a:hover {
+  font-weight: 500;
+  color: rgb(229, 152, 102);
+  transition: 0.3s;
+}
+
+/* -------- HOME -------- */
+
+main .portadaMain {
+  height: 490px;
+  background-image: url(../assets/img/main-portada.webp);
+  color: white;
+  /* background-size especifica el tamaño de las imágenes de fondo. El valor cover, escala la imagen al mayor tamaño posible sin estirarla. Si es necesario recorta vertical u horizontalmente para que no quede un espacio vacío. */
+  background-size: cover;
+  /* background-position, define la posición inicial de la imagen de fondo especificada.
+  El valor center, posiciona en el centro a la imagen */
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* background-blend-mode describe cómo las imágenes de fondo y el color de fondo del elemento deben mezclar entre sí. */
+  background-blend-mode: darken;
+}
+
+main .portadaMain .btn {
+  color: white;
+  background-color: rgb(48, 202, 255);
+}
+
+/* -------- VENTA -------- */
+
+#main {
+  height: 95%;
+}
+
+#venta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#venta .descripcion {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+#main #venta .descripcion p {
+  font-size: 1.3rem;
+  margin: 2%;
+}
+
+#main #venta .imgPropiedad {
+  margin-right: 3%;
+  margin-bottom: auto;
+  width: 100%;
+  padding: 1%;
+}
+
+/* -------- UBICACION -------- */
+
+#ubicacion {
+  background-color: rgb(242, 243, 244);
+}
+
+#ubicacion .ubi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#ubicacion .ubi .direccion {
+  font-size: 1.3rem;
+  margin: auto;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+#ubicacion .ubi .mapa iframe {
+  margin: 2% 2%;
+}
+
+/* -------- SOBRE NOSOTROS -------- */
+
+#main-sobreNosotros #sobreNosotros{
+  margin: 2%;
+}
+
+#main-sobreNosotros #sobreNosotros #about-us-container #text-about-us {
+  font-size: 1.5rem;
+}
+
+#main-sobreNosotros #sobreNosotros #about-us-container .cards{
+  margin: 0% 2%;
+}
+
+#main-sobreNosotros #sobreNosotros #about-us-container .card{
+  flex-direction:column ;
+  margin: 2% 2%;
+}
+
+
+/* -------- CONTACTO -------- */
+
+#main-contact #contacto form {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#main-contact #contacto form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-contact #contacto form .formulario {
+  display: flex;
+  flex-direction: column;
+  width: 14rem;
+  margin: 0.5rem 0;
+}
+
+#contacto form label {
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+}
+
+#contacto form input {
+  font-size: 1.1rem;
+  height: 2.2rem;
+  padding-left: 0.5rem;
+}
+
+.consulta {
+  display: flex;
+  flex-direction: column;
+
+  width: 25rem;
+  margin: 0.75rem 0;
+}
+
+.consulta textarea {
+  font-size: 1.1rem;
+
+  max-width: 100%;
+  height: 5rem;
+  max-height: 15rem;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+
+  border: 2px solid #696969;
+  border-radius: 5px;
+}
+
+.consulta label {
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+}
+
+
+/* -------- Pie de Página -------- */
+
+.pie-pagina {
+  width: 100%;
+  background-color: rgb(245, 203, 167);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.pie-pagina .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+  width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+  color: rgb(46, 64, 83);
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+  color: rgb(46, 64, 83);
+  margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: rgb(13, 32, 51);
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-2 {
+  background-color: rgb(10, 26, 42);
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.pie-pagina .grupo-2 small {
+  font-size: 15px;
+}
+
+/* -------- MEDIA QUERIES -------- */
+
+@media screen and (max-width: 576px) {
+  #ubicacion .ubi {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #ubicacion .ubi .direccion{
+    font-size: 20px;
+  }
+
+  #ubicacion .ubi iframe {
+    width: 95%;
+    margin: auto;
+    padding: auto;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .flex-column .encabezado-contacto {
+    font-size: 1rem;
+  }
+
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+    justify-content: space-between;
+  }
+
+  #ubicacion .ubi {
+    width: auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+     grid-gap: 50px; 
+     padding: 15px 0px; 
+  }
+
+  #ubicacion .ubi .direccion{
+    text-align: start;
+    margin: 2%;
+  }
+  #ubicacion .ubi iframe {
+    align-items: center;
+    margin: 2%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar .container-fluid .collapse .navbar-nav {
+    text-align: center;
+  }
+
+  .flex-column .encabezado-contacto {
+    text-align: center;
+  }
+
+  .pie-pagina .grupo-1 .box {
+    margin: 15px;
+  }
+
+  #ubicacion .ubi{
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+    padding: 15px 0px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .pie-pagina .grupo-1 .box {
+    margin: 15px;
+  }
+}
+
+/* SCROLL */
+
+::-webkit-scrollbar {
+  display: none;
+}
