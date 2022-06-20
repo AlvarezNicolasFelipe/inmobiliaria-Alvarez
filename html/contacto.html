@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon" />
     <title>Inmobiliaria M&C</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -63,34 +63,38 @@
             inmobiliaria@m&c.com</div>
     </div>
 
+
     <!-- CONTACTO - MAIN -->
 
     <main id="main-contact">
         <section id="contacto">
+
+            <form action="envio.php" method="post">
+                <div class="row  w-50">
+                    <div class="col nombre">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" required>
+                    </div>
+                    <div class="col apellido">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" required>
+                    </div>
+                </div>
     
-          <form action="envio.php" method="post">
+                <div class="mb-3 email">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@example.com" autocomplete required>
+                </div>
     
-            <div class="formulario">
-              <label for="name">Nombre</label>
-              <input id="name" name="nombre" type="text" required autocomplete>
-            </div>
+                <div class="form-floating w-50 consulta">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" required></textarea>
+                    <label for="floatingTextarea">Consulta</label>
+                </div>
     
-            <div class="formulario">
-              <label for="email" name>Email</label>
-              <input id="email" name="email" type="email" placeholder="name@example.com" required autocomplete>
-            </div>
-    
-            <div class="consulta">
-              <label for="message">Consulta</label>
-              <textarea name="message" id="message" cols="60" rows="10" placeholder="Escriba aquí su consulta" required></textarea>
-            </div>
-    
-            <button class="btn">Enviar</button>
-    
-          </form>
-    
+                <div class="d-grid gap-2 d-md-block button">
+                    <button class="btn" type="button">Enviar</button>
+                  </div>
+            </form>
+
         </section>
-      </main>
+    </main>
 
 
     <!-- Pie de Página -->

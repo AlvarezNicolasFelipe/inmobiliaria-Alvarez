@@ -149,66 +149,33 @@ main .portadaMain .btn {
 
 /* -------- CONTACTO -------- */
 
-#main-contact #contacto form {
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+#main-contact #contacto{
+  margin: 3% 3%;
+  height: 85%;
 }
 
-#main-contact #contacto form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 100%;
-  max-width: 1000px;
-  padding: 0 1rem;
-  margin-left: auto;
-  margin-right: auto;
+#main-contact #contacto .nombre{
+  margin-bottom: 3%;
+  margin-right: 5%;
 }
 
-#main-contact #contacto form .formulario {
-  display: flex;
-  flex-direction: column;
-  width: 14rem;
-  margin: 0.5rem 0;
+#main-contact #contacto .apellido{
+  margin-bottom: 3%;
+  margin-left: 5%;
 }
 
-#contacto form label {
-  font-size: 1.5rem;
-  margin-bottom: 0.2rem;
+#main-contact #contacto .email{
+  margin-bottom: 3%;
+  width: 30%;
 }
 
-#contacto form input {
-  font-size: 1.1rem;
-  height: 2.2rem;
-  padding-left: 0.5rem;
+#main-contact #contacto .consulta{
+  margin-bottom: 3%;
 }
 
-.consulta {
-  display: flex;
-  flex-direction: column;
-
-  width: 25rem;
-  margin: 0.75rem 0;
-}
-
-.consulta textarea {
-  font-size: 1.1rem;
-
-  max-width: 100%;
-  height: 5rem;
-  max-height: 15rem;
-  padding-top: 0.5rem;
-  padding-left: 0.5rem;
-
-  border: 2px solid #696969;
-  border-radius: 5px;
-}
-
-.consulta label {
-  font-size: 0.9rem;
-  margin-bottom: 0.2rem;
+#main-contact #contacto .button .btn {
+  color: white;
+  background-color: rgb(48, 202, 255);
 }
 
 
