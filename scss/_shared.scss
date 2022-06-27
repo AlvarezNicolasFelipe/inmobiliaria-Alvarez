@@ -1,0 +1,9 @@
+.encabezado-contacto, .contact, footer {
+    font-family:$secondaryFont;
+  }
+  
+  .encabezado-contacto, .footer {
+    background-color: $orangeColor2;
+    color: $fontColor;
+    font-size: 1.2rem;
+  }

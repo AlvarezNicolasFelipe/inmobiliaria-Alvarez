@@ -1,0 +1,162 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Plus+Jakarta+Sans&display=swap");
+.encabezado-contacto, .contact, footer {
+  font-family: "Karla", sans-serif; }
+
+.encabezado-contacto, .footer {
+  background-color: #f5cba7;
+  color: #2e4053;
+  font-size: 1.2rem; }
+
+/* -------- NAV -------- */
+nav {
+  font-size: 1.1rem; }
+  nav .logo {
+    width: 30%; }
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+  color: black; }
+
+nav div ul li a {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s; }
+
+nav ul li a:hover {
+  color: black;
+  font-weight: 600;
+  /*Subrayado animado*/
+  background-size: 100% 2px;
+  color: #e59866; }
+
+/* -------- HOVER -------- */
+.navbar .container-fluid .collapse .navbar-nav .nav-item a:hover {
+  font-weight: 500;
+  color: #e59866;
+  transition: 0.3s; }
+
+/* SCROLL */
+::-webkit-scrollbar {
+  display: none; }
+
+/* -------- HOME -------- */
+main .portadaMain {
+  height: 490px;
+  background-image: url(../assets/img/main-portada.webp);
+  color: white;
+  /* background-size especifica el tamaño de las imágenes de fondo. El valor cover, escala la imagen al mayor tamaño posible sin estirarla. Si es necesario recorta vertical u horizontalmente para que no quede un espacio vacío. */
+  background-size: cover;
+  /* background-position, define la posición inicial de la imagen de fondo especificada.
+      El valor center, posiciona en el centro a la imagen */
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  /* background-blend-mode describe cómo las imágenes de fondo y el color de fondo del elemento deben mezclar entre sí. */
+  background-blend-mode: darken; }
+  main .portadaMain .btn {
+    color: white;
+    background-color: #30caff; }
+
+/* -------- Pie de Página -------- */
+.pie-pagina {
+  width: 100%;
+  background-color: #f5cba7;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif; }
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px; }
+    .pie-pagina .grupo-1 .box figure {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .pie-pagina .grupo-1 .box figure img {
+        width: 250px; }
+    .pie-pagina .grupo-1 .box h2 {
+      color: #2e4053;
+      margin-bottom: 25px;
+      font-size: 20px; }
+    .pie-pagina .grupo-1 .box p {
+      color: #2e4053;
+      margin-bottom: 10px; }
+    .pie-pagina .grupo-1 .red-social a {
+      display: inline-block;
+      text-decoration: none;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      color: white;
+      margin-right: 10px;
+      background-color: #0d2033;
+      text-align: center;
+      transition: all 300ms ease; }
+  .pie-pagina .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: white; }
+    .pie-pagina .grupo-2 small {
+      font-size: 15px; }
+
+/* -------- MEDIA QUERIES -------- */
+@media screen and (max-width: 576px) {
+  #ubicacion .ubi {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    #ubicacion .ubi .direccion {
+      font-size: 20px; }
+    #ubicacion .ubi iframe {
+      width: 95%;
+      margin: auto;
+      padding: auto; } }
+
+@media screen and (max-width: 768px) {
+  .flex-column .encabezado-contacto {
+    font-size: 1rem; }
+  .pie-pagina .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+    justify-content: space-between; }
+  #ubicacion .ubi {
+    width: auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    padding: 15px 0px; }
+    #ubicacion .ubi .direccion {
+      text-align: start;
+      margin: 2%; }
+    #ubicacion .ubi iframe {
+      align-items: center;
+      margin: 2%; } }
+
+@media screen and (max-width: 992px) {
+  .navbar .container-fluid .collapse .navbar-nav, .flex-column .encabezado-contacto {
+    text-align: center; }
+  .pie-pagina .grupo-1 .box {
+    margin: 15px; }
+  #ubicacion .ubi {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+    padding: 15px 0px; } }
+
+@media screen and (max-width: 1200px) {
+  .pie-pagina .grupo-1 .box {
+    margin: 15px; } }

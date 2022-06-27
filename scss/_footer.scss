@@ -1,0 +1,70 @@
+/* -------- Pie de Página -------- */
+  
+.pie-pagina {
+    width: 100%;
+    background-color: $secondaryColor;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $thirdFont;
+  
+    .grupo-1 {
+      width: 100%;
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 50px;
+      padding: 45px 0px;
+  
+      .box {
+        figure {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+  
+          img {
+            width: 250px;
+          }
+        }
+  
+        h2 {
+          color: $fontColor;
+          margin-bottom: 25px;
+          font-size: 20px;
+        }
+  
+        p {
+          color: $fontColor;
+          margin-bottom: 10px;
+        }
+      }
+  
+      .red-social a {
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color: white;
+        margin-right: 10px;
+        background-color: rgb(13, 32, 51);
+        text-align: center;
+        transition: all 300ms ease;
+      }
+    }
+  
+    .grupo-2 {
+      background-color: rgb(10, 26, 42);
+      padding: 15px 10px;
+      text-align: center;
+      color: white;
+  
+      small {
+        font-size: 15px;
+      }
+    }
+  }

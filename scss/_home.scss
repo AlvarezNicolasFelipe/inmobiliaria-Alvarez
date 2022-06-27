@@ -1,0 +1,23 @@
+/* -------- HOME -------- */
+
+main .portadaMain {
+    height: 490px;
+    background-image: url(../assets/img/main-portada.webp);
+    color: white;
+  
+    /* background-size especifica el tamaño de las imágenes de fondo. El valor cover, escala la imagen al mayor tamaño posible sin estirarla. Si es necesario recorta vertical u horizontalmente para que no quede un espacio vacío. */
+    background-size: cover;
+  
+    /* background-position, define la posición inicial de la imagen de fondo especificada.
+      El valor center, posiciona en el centro a la imagen */
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.3);
+  
+    /* background-blend-mode describe cómo las imágenes de fondo y el color de fondo del elemento deben mezclar entre sí. */
+    background-blend-mode: darken;
+  
+    .btn {
+      color: white;
+      background-color: $blueColor;
+    }
+  }
