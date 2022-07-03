@@ -1,0 +1,5 @@
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Este es el sitio web donde encontraras las mejores opciones para poder tener tu casa en Nordelta, Provincia de Buenos Aires."
+
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "INMOBILIARIA, PROVINCIA DE BUENOS AIRES, TIGRE, NORDELTA, CASA, VENTA, M&C"
+
+Encabezado: casa sección tiene su propio encabezado, para HOME puse como H1: M&C (el nombre de la inmobiliaria), para VENTA puse como H1: CASAS EN VENTA, para UBICACIÓN puse como H1: Direccion: Cuenca 2052, Capital Federal (dirección de la inmobiliaria), para VENTA puse como H1: Quiénes somos? y por último para CONTACTO puse como H1: Contacte con nosotros!

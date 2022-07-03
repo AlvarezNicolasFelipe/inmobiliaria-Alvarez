@@ -1,0 +1,31 @@
+/* -------- CONTACTO -------- */
+
+#main-contact #contacto {
+    margin: 3% 3%;
+    height: 85%;
+  
+    .nombre {
+      margin-bottom: 3%;
+      margin-right: 5%;
+    }
+  
+    
+    .apellido {
+     @extend .consulta;
+      margin-left: 5%;
+    }
+  
+    .email {
+      @extend .consulta;
+      width: 30%;
+    }
+  
+    .consulta {
+      margin-bottom: 3%;
+    }
+  
+    .button .btn {
+      color: rgb(255, 255, 255);
+      background-color: rgb(48, 202, 255);
+    }
+  }

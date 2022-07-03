@@ -1,0 +1,11 @@
+/* -------- PROPIEDADES COMPARTIDAS -------- */
+
+.pie-pagina .grupo-1 {
+    .footer-contacto h2, .box h2 {
+     @include font-size-family
+    }
+  }
+  
+  .encabezado-contacto, footer {
+    @include background-color-font-size
+  }
