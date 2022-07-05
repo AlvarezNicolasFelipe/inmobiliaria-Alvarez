@@ -2,7 +2,7 @@
 
 .pie-pagina {
     width: 100%;
-    background-color: rgb(245, 203, 167);
+    background-color: map-get($estilosDeColores, background-orange-color2 );
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@
       justify-content: space-between;
   
       .footer-contacto p {
-        font-family: 'Roboto', sans-serif;
+        font-family: $fiveFont;
       }
   
       .box {
@@ -54,7 +54,7 @@
       text-align: center;
   
       h4 {
-        font-family: 'Chakra Petch', sans-serif;
+        font-family: $thirdFont;
         font-size: 1.6rem;
         margin: 0.3rem;
       }

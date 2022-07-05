@@ -1,7 +1,7 @@
 /* -------- UBICACION -------- */
 
 #ubicacion {
-    background-color: rgb(242, 243, 244);
+    background-color:  map-get($estilosDeColores, background-white-color );
   
     .ubi {
       display: flex;
@@ -14,7 +14,7 @@
         .direccion {
           font-size: 1.3rem;
           margin: auto;
-          font-family: "Plus Jakarta Sans", sans-serif;
+          font-family: $mainFont;
         }
       }
   

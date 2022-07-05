@@ -19,7 +19,7 @@
 nav {
   font-size: 1.1rem; }
   nav .logo {
-    width: 30%; }
+    width: 170px; }
 
 .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
   color: black; }
@@ -153,7 +153,7 @@ main .portadaMain {
     display: flex;
     justify-content: space-between; }
     .pie-pagina .grupo-1 .footer-contacto p {
-      font-family: 'Roboto', sans-serif; }
+      font-family: "Roboto", sans-serif; }
     .pie-pagina .grupo-1 .box h2 {
       margin-bottom: 25px; }
     .pie-pagina .grupo-1 .box .red-social {
@@ -175,7 +175,7 @@ main .portadaMain {
     padding: 0.9rem 0.6rem;
     text-align: center; }
     .pie-pagina .slogan h4 {
-      font-family: 'Chakra Petch', sans-serif;
+      font-family: "Chakra Petch", sans-serif;
       font-size: 1.6rem;
       margin: 0.3rem; }
   .pie-pagina .grupo-2 {
