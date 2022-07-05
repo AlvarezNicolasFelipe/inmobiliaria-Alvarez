@@ -1,0 +1,140 @@
+  /* -------- MEDIA QUERIES -------- */
+  
+  @media screen and (max-width: 375px) {
+    .pie-pagina .grupo-1 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 537px) {
+    .pie-pagina .grupo-1 {
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+  
+      .box .red-social {
+        display: flex;
+        justify-content: flex-start;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    #ubicacion .ubi {
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+  
+      .direccion {
+        font-size: 20px;
+      }
+  
+      iframe {
+        width: 95%;
+        margin: auto;
+        padding: auto;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    #ubicacion .ubi iframe {
+      margin: auto;
+      width: 90%;
+    }
+  
+    .pie-pagina .grupo-1 {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+  
+      .box .red-social {
+        display: flex;
+        justify-content: flex-start;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .flex-column .encabezado-contacto {
+      font-size: 1rem;
+    }
+  
+    #ubicacion .ubi {
+      width: auto;
+      max-width: 1200px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 50px;
+      padding: 15px 0px;
+  
+      .direccion {
+        text-align: start;
+        margin: 2%;
+      }
+  
+      iframe {
+        align-items: center;
+        margin: 2%;
+      }
+    }
+  }
+  
+  /* @media screen and (min-width: 768px) {
+    .pie-pagina .grupo-1 {
+      width: 90%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 3rem;
+      padding: 35px 0px;
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .pie-pagina .grupo-1 .box .red-social{
+      justify-content: flex-start;
+    }
+  } */
+  
+  @media screen and (max-width: 992px) {
+    .navbar .container-fluid .collapse .navbar-nav, .flex-column .encabezado-contacto {
+      text-align: center;
+    }
+  
+    .pie-pagina .grupo-1 .box {
+      margin: 15px;
+    }
+  
+    #ubicacion .ubi {
+      width: 90%;
+      margin: auto;
+      max-width: 1200px;
+      padding: 15px 0px;
+    }
+  }
+  
+  @media screen and (max-width: 1075px) {
+    .pie-pagina .grupo-1 {
+      .footer-contacto {
+        margin-left: 1rem;
+      }
+  
+      .box {
+        margin-right: 1rem;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .pie-pagina .grupo-1 .box {
+      margin: 15px;
+      margin-top: 0%;
+    }
+  }
+
+/* SCROLL */
+
+::-webkit-scrollbar {
+  display: none;
+}

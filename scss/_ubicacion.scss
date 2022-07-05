@@ -1,0 +1,31 @@
+/* -------- UBICACION -------- */
+
+#ubicacion {
+    background-color: rgb(242, 243, 244);
+  
+    .ubi {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  
+      .dir-horarios {
+        display: flex;
+  
+        .direccion {
+          font-size: 1.3rem;
+          margin: auto;
+          font-family: "Plus Jakarta Sans", sans-serif;
+        }
+      }
+  
+      .mapa iframe {
+        margin: 2% 2%;
+      }
+    }
+  }
+  
+  /* #ubicacion .ubi img{
+    width: 25%;
+    background-color: rgb(250, 235, 215);
+    border-radius: 5%;
+  } */

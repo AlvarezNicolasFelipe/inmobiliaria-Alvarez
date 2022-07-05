@@ -1,0 +1,40 @@
+/* -------- NAV -------- */
+
+nav {
+    font-size: 1.1rem;
+    .logo {
+      width: 30%;
+    }
+  }
+  
+  .navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+    color: map-get($estilosDeColores, fontColor );
+  }
+  
+  nav {
+    div ul li a {
+      background-image: linear-gradient(currentColor, currentColor);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size 0.3s;
+    }
+  
+    ul li a:hover {
+      color: map-get($estilosDeColores, fontColor );
+      font-weight: 600;
+  
+      /*Subrayado animado*/
+      background-size: 100% 2px;
+      color: map-get($estilosDeColores, background-orange-color1 );
+    }
+  }
+  
+  /* -------- HOVER -------- */
+  
+  .navbar .container-fluid .collapse .navbar-nav .nav-item a:hover {
+    font-weight: 500;
+    color: map-get($estilosDeColores, background-orange-color1 );
+    transition: 0.3s;
+  }
+  

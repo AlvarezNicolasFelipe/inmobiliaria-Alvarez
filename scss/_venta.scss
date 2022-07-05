@@ -1,0 +1,29 @@
+/* -------- VENTA -------- */
+
+#main {
+    height: 95%;
+  }
+  
+  #venta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .descripcion {
+      font-family: "Plus Jakarta Sans", sans-serif;
+    }
+  }
+  
+  #main #venta {
+    .descripcion p {
+      font-size: 1.3rem;
+      margin: 2%;
+    }
+  
+    .imgPropiedad {
+      margin-right: 3%;
+      margin-bottom: auto;
+      width: 100%;
+      padding: 1%;
+    }
+  }
