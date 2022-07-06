@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <style>
+
+    @import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Nunito Sans";
+      color: #000000;
+      font-size: 1em;
+    }
+
+    img {
+      width: 20%;
+    }
+
+    h1 {
+      font-size: 7.5em;
+      margin: 0.9rem 0rem;
+      font-weight: bold;
+    }
+
+    h2 {
+      font-weight: bold;
+    }
+
+    p {
+      color: #909497;
+    }
+
+    .btn {
+      z-index: 1;
+      overflow: hidden;
+      background: transparent;
+      position: relative;
+      padding: 0.5rem 3.1rem;
+      border-radius: 1.8rem;
+      cursor: pointer;
+      font-size: 1em;
+      letter-spacing: 0.1rem;
+      transition: 0.2s ease;
+      font-weight: bold;
+      margin: 0.3rem 0rem;
+    }
+
+    .orange {
+      border: 0.25rem solid rgb(229, 152, 102);
+      color: #000000;
+    }
+
+    @media screen and (max-width: 768px) {
+      body {
+        display: block;
+      }
+
+      .container {
+        margin-top: 4.3rem;
+        margin-bottom: 4.3rem;
+      }
+    }
+  </style>
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Error 404</title>
+  </head>
+
+  <body>
+    <main>
+      <div>
+        <img src="../assets/img/emoji-cara-triste.webp" alt="Emoji de cara triste" />
+        <h1>Uuppsss...</h1>
+        <h2>ERROR 404</h2>
+        <p>
+          La página que buscás no existe. Cómo llegaste acá no sabemos. Pero
+          podes hacer clic en el botón de abajo para volver a la página de
+          inicio.
+        </p>
+        <a href="https://www.instagram.com/">
+          <button class="btn orange">HOME</button>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
