@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap");
+/* -------- PROPIEDADES COMPARTIDAS -------- */
+.pie-pagina .grupo-1 .footer-contacto h2, .pie-pagina .grupo-1 .box h2 {
+  font-size: 1.5rem;
+  font-family: 'Signika', sans-serif; }
+
+.encabezado-contacto, footer {
+  background-color: #f5cba7;
+  color: black;
+  font-size: 1.2rem; }
+
+/* -------- NAV -------- */
+nav {
+  font-size: 1.1rem; }
+  nav .logo {
+    width: 170px; }
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+  color: black; }
+
+nav div ul li a {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s; }
+
+nav ul li a:hover {
+  color: black;
+  font-weight: 600;
+  /*Subrayado animado*/
+  background-size: 100% 2px;
+  color: #e59866; }
+
+/* -------- HOVER -------- */
+.navbar .container-fluid .collapse .navbar-nav .nav-item a:hover {
+  font-weight: 500;
+  color: #e59866;
+  transition: 0.3s; }
+
+/* -------- Encabezado-Contacto -------- */
+.encabezado-contacto {
+  font-family: "Karla", sans-serif; }
+
+/* -------- HOME -------- */
+main .portadaMain {
+  height: 490px;
+  background-image: url(../assets/img/main-portada.webp);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: darken; }
+  main .portadaMain .btn {
+    color: white;
+    background-color: #30caff; }
+
+/* -------- VENTA -------- */
+#main {
+  height: 490px; }
+
+#venta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  #venta .descripcion {
+    font-family: "Plus Jakarta Sans", sans-serif; }
+
+#main #venta .descripcion p {
+  font-size: 1.3rem;
+  margin: 2%; }
+
+.carousel {
+  margin-top: 4px; }
+
+.carousel-text h5, .carousel-text p {
+  text-shadow: 0 0 3px black; }
+
+/* -------- UBICACION -------- */
+#ubicacion {
+  background-color: #f2f3f4; }
+  #ubicacion .ubi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    #ubicacion .ubi .dir {
+      display: flex; }
+      #ubicacion .ubi .dir .direccion {
+        font-size: 1.3rem;
+        margin: auto;
+        font-family: "Plus Jakarta Sans", sans-serif; }
+    #ubicacion .ubi .mapa iframe {
+      margin: 3% 2%; }
+
+/* -------- SOBRE NOSOTROS -------- */
+#main-sobreNosotros #sobreNosotros {
+  margin: 2%; }
+  #main-sobreNosotros #sobreNosotros #about-us-container #text-about-us {
+    font-size: 1.5rem;
+    display: flex; }
+  #main-sobreNosotros #sobreNosotros #about-us-container .card {
+    flex-direction: column;
+    margin: 2% 2%; }
+
+/* -------- CONTACTO -------- */
+#main-contact #contacto {
+  margin: 2% 2%;
+  height: 85%; }
+  #main-contact #contacto h1 {
+    font-size: 1.4rem; }
+  #main-contact #contacto h2 {
+    font-size: 1.2rem;
+    margin: 2% 0%; }
+  #main-contact #contacto .btn {
+    color: white;
+    background-color: #30caff;
+    margin: 1% 0; }
+
+/* -------- Footer -------- */
+.pie-pagina {
+  width: 100%;
+  background-color: #f5cba7;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    display: flex;
+    justify-content: space-between; }
+    .pie-pagina .grupo-1 .footer-contacto p {
+      font-family: "Roboto", sans-serif; }
+    .pie-pagina .grupo-1 .box h2 {
+      margin-bottom: 25px; }
+    .pie-pagina .grupo-1 .box .red-social {
+      display: flex;
+      justify-content: center; }
+    .pie-pagina .grupo-1 .red-social a {
+      display: inline-block;
+      text-decoration: none;
+      width: 45px;
+      height: 45px;
+      line-height: 45px;
+      color: white;
+      margin-right: 10px;
+      background-color: #0d2033;
+      text-align: center;
+      transition: all 300ms ease; }
+  .pie-pagina .slogan {
+    background-color: #f0b582;
+    padding: 0.9rem 0.6rem;
+    text-align: center; }
+    .pie-pagina .slogan h4 {
+      font-family: "Chakra Petch", sans-serif;
+      font-size: 1.6rem;
+      margin: 0.3rem; }
+  .pie-pagina .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 0.9rem 0.6rem;
+    text-align: center;
+    color: white; }
+    .pie-pagina .grupo-2 small {
+      font-size: 0.9rem; }
+
+/* -------- Error-404 -------- */
+.main-error {
+  font-family: "Nunito Sans", sans-serif;
+  color: black;
+  display: flex;
+  justify-content: center; }
+
+.container-error {
+  width: 90%;
+  display: block;
+  margin: 2% 10%; }
+
+.main-error .container-error .img-cara-triste {
+  width: 15%; }
+
+.main-error .container-error div h1 {
+  font-size: 9.5rem;
+  font-weight: bold;
+  display: inline;
+  margin: 3% 0; }
+
+.main-error .container-error div h2 {
+  font-size: 2rem;
+  margin: 3% 0;
+  font-weight: bold; }
+
+.main-error .container-error div p {
+  color: #b3b6b7;
+  font-size: 1.2rem;
+  margin: 3% 0; }
+
+.main-error .container-error .btn-error a {
+  text-decoration: none; }
+
+.main-error .container-error .btn-error .btn {
+  background-color: #f0b582;
+  color: black; }
+
+/* -------- MEDIA QUERIES -------- */
+@media screen and (max-width: 273px) {
+  .logo {
+    width: 120px; } }
+
+@media screen and (max-width: 375px) {
+  #ubicacion .ubi .dir .direccion {
+    font-size: 1rem; }
+  .pie-pagina .grupo-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media screen and (max-width: 382px) {
+  .main-error {
+    width: 90%;
+    margin-top: 10%; }
+    .main-error .container-error .img-cara-triste {
+      width: 15%;
+      margin-bottom: 5%; }
+    .main-error .container-error div h1 {
+      font-size: 4rem;
+      margin-bottom: 5%; }
+    .main-error .container-error div h2 {
+      font-size: 0.9rem;
+      font-weight: bold;
+      margin-bottom: 5%; } }
+
+@media screen and (max-width: 400px) {
+  .main-error {
+    justify-content: center;
+    margin-top: 10%; } }
+
+@media screen and (max-width: 536px) {
+  #main #venta {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0px;
+    padding: 0px 0px; }
+    #main #venta .descripcion {
+      margin-top: 2px;
+      text-align: center; }
+    #main #venta .carousel {
+      width: 10%; } }
+
+@media screen and (max-width: 537px) {
+  .pie-pagina .grupo-1 {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    .pie-pagina .grupo-1 .box .red-social {
+      display: flex;
+      justify-content: flex-start; } }
+
+@media screen and (max-width: 564px) {
+  .container-error {
+    width: 90%;
+    margin-top: 15%; }
+  .main-error .container-error div h1 {
+    font-size: 5rem; }
+  .main-error .container-error div h2 {
+    font-size: 1.5rem;
+    font-weight: bold; } }
+
+@media screen and (max-width: 576px) {
+  #ubicacion .ubi {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    #ubicacion .ubi .direccion {
+      font-size: 20px; }
+    #ubicacion .ubi iframe {
+      width: 95%;
+      margin: auto;
+      padding: auto; } }
+
+@media screen and (max-width: 580px) {
+  .container-error {
+    display: block;
+    justify-content: center;
+    margin-top: 10%; } }
+
+@media screen and (max-width: 650px) {
+  #ubicacion .ubi iframe {
+    margin: auto;
+    width: 90%; }
+  .pie-pagina .grupo-1 .footer-contacto h2, .pie-pagina .grupo-1 .box h2 {
+    font-size: 1.3rem; }
+  .pie-pagina .grupo-1 .footer-contacto p {
+    font-size: 1.1rem; }
+  .pie-pagina .grupo-1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+  .pie-pagina .grupo-1 .box .red-social {
+    display: flex;
+    justify-content: flex-start; }
+  .pie-pagina .slogan h4 {
+    font-size: 1.2rem; } }
+
+@media screen and (max-width: 723px) {
+  #main #venta {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0px;
+    padding: 0px 0px; }
+    #main #venta .descripcion {
+      margin-top: 2px;
+      text-align: center; }
+    #main #venta .carousel {
+      width: 90%;
+      justify-content: center; } }
+
+@media screen and (max-width: 768px) {
+  .flex-column .encabezado-contacto {
+    font-size: 1rem; }
+  #ubicacion .ubi {
+    width: auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    padding: 15px 0px; }
+    #ubicacion .ubi .direccion {
+      text-align: start; }
+    #ubicacion .ubi .iframe, #ubicacion .ubi .direccion {
+      align-items: center;
+      margin: 2%; }
+  #main-sobreNosotros #sobreNosotros #about-us-container h1, #main-sobreNosotros #sobreNosotros #about-us-container h2 {
+    margin: 4% 0%; } }
+
+@media screen and (max-width: 955px) {
+  #ubicacion .ubi {
+    width: auto;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 50px;
+    padding: 15px 0px; }
+    #ubicacion .ubi .mapa {
+      display: flex;
+      justify-content: center;
+      width: auto; } }
+
+@media screen and (max-width: 991px) {
+  #main-contact #contacto h1, #main-contact #contacto h2 {
+    text-align: center; } }
+
+@media screen and (max-width: 992px) {
+  .navbar .container-fluid .collapse .navbar-nav, .flex-column .encabezado-contacto {
+    text-align: center; }
+  .pie-pagina .grupo-1 .box {
+    margin: 15px; }
+  #ubicacion .ubi {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+    padding: 15px 0px; } }
+
+@media screen and (max-width: 1031px) {
+  #ubicacion #ubi .mapa iframe {
+    width: 70%; } }
+
+@media screen and (max-width: 1075px) {
+  #main #venta {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 0px;
+    padding: 0px 0px; }
+    #main #venta .descripcion {
+      margin-top: 2px;
+      text-align: center; }
+    #main #venta .carousel {
+      width: 70%;
+      justify-content: center; }
+  .pie-pagina .grupo-1 .footer-contacto {
+    margin-left: 1rem; }
+  .pie-pagina .grupo-1 .box {
+    margin-right: 1rem; } }
+
+@media screen and (max-width: 1200px) {
+  .pie-pagina .grupo-1 .box {
+    margin: 15px;
+    margin-top: 0%; }
+  .pie-pagina .grupo-1 .footer-contacto {
+    margin-left: 10px;
+    margin-top: 0%; } }
+
+/* SCROLL */
+::-webkit-scrollbar {
+  display: none; }

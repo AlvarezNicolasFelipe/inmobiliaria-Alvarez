@@ -1,0 +1,25 @@
+/* -------- UBICACION -------- */
+
+  #ubicacion {
+    background-color: map-get($estilosDeColores, background-white-color );
+  
+    .ubi {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  
+      .dir {
+        display: flex;
+  
+        .direccion {
+          font-size: 1.3rem;
+          margin: auto;
+          font-family: $mainFont;
+        }
+      }
+  
+      .mapa iframe {
+        margin: 3% 2%;
+      }
+    }
+  }

@@ -1,0 +1,14 @@
+// Mixins
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+
+@mixin font-size-family {
+    font-size: 1.5rem;
+    font-family: 'Signika', sans-serif;
+}
+
+@mixin background-color-font-size {
+    background-color: #f5cba7;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}

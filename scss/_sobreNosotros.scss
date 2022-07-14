@@ -1,0 +1,17 @@
+/* -------- SOBRE NOSOTROS -------- */
+
+#main-sobreNosotros #sobreNosotros {
+  margin: 2%;
+
+  #about-us-container {
+    #text-about-us {
+      font-size: 1.5rem;
+      display: flex;
+    }
+
+    .card {
+      flex-direction: column;
+      margin: 2% 2%;
+    }
+  }
+}

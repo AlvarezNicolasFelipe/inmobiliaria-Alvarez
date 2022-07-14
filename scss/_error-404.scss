@@ -1,0 +1,52 @@
+/* -------- Error-404 -------- */
+
+.main-error {
+    font-family: $sixFont;
+    color: map-get($estilosDeColores, fontColor );
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container-error {
+    width: 90%;
+    display: block;
+    margin: 2% 10%;
+  }
+  
+  .main-error .container-error {
+    .img-cara-triste {
+      width: 15%;
+    }
+  
+    div {
+      h1 {
+        font-size: 9.5rem;
+        font-weight: bold;
+        display: inline;
+        margin: 3% 0;
+      }
+  
+      h2 {
+        font-size: 2rem;
+        margin: 3% 0;
+        font-weight: bold;
+      }
+  
+      p {
+        color: map-get($estilosDeColores, fontColor-grey );
+        font-size: 1.2rem;
+        margin: 3% 0;
+      }
+    }
+  
+    .btn-error {
+      a {
+        text-decoration: none;
+      }
+  
+      .btn {
+        background-color: map-get($estilosDeColores, background-slogan-color );
+        color: map-get($estilosDeColores, fontColor );
+      }
+    }
+  }

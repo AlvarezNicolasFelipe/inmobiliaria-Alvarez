@@ -1,0 +1,30 @@
+/* -------- VENTA -------- */
+
+  #main {
+    height: 490px;
+  }
+  
+  #venta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .descripcion {
+      font-family: $mainFont;
+    }
+  }
+  
+  #main #venta .descripcion p {
+    font-size: 1.3rem;
+    margin: 2%;
+  }
+
+  .carousel {
+    margin-top: 4px;
+  }
+
+  .carousel-text {
+    h5, p {
+      text-shadow: 0 0 3px black;
+    }
+  }

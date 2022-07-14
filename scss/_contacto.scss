@@ -1,0 +1,21 @@
+/* -------- CONTACTO -------- */
+
+#main-contact #contacto {
+  margin: 2% 2%;
+  height: 85%;
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    margin: 2% 0%;
+  }
+
+  .btn {
+    color: map-get($estilosDeColores, mainColor );
+    background-color: map-get($estilosDeColores, background-blue-color2 );
+    margin: 1% 0;
+  }
+}

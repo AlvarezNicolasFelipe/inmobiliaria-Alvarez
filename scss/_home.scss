@@ -1,0 +1,16 @@
+/* -------- HOME -------- */
+
+main .portadaMain {
+    height: 490px;
+    background-image: url(../assets/img/main-portada.webp);
+    color: map-get($estilosDeColores, mainColor );
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+  
+    .btn {
+      color: map-get($estilosDeColores, mainColor );
+      background-color: map-get($estilosDeColores, background-blue-color2 );
+    }
+  }
