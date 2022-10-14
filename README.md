@@ -96,7 +96,7 @@ Click derecho en, Open Live Server, si es que usas Visual Studio Code
 
 * [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans?query=plus+jakarta)
 * [Karla](https://fonts.google.com/specimen/Karla?query=karla)
-* [Ckara Petch](https://fonts.google.com/specimen/Chakra+Petch?query=chakra)
+* [Chakra Petch](https://fonts.google.com/specimen/Chakra+Petch?query=chakra)
 * [Signika](https://fonts.google.com/specimen/Signika?query=signi)
 * [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto)
 * [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans?query=nunito)
