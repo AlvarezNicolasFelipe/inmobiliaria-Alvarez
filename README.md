@@ -3,8 +3,8 @@
 # Sitio Web para Inmobiliaria M&C <img src="https://img.icons8.com/stickers/100/000000/land-sales.png" width="40"/>
 <br />
 
-<p> Proyecto realizado para una Inmobiliaria, desarrollado con HTML, CSS, SASS y Bootstrap. </p>
-<p> Cuenta con diseño responsive para Desktop, Mobile y Tablet, imágenes optimizadas, animaciones sutiles y muchos más! </p>
+<p> Cada rama muestra un avance del proyecto. La idea principal era mostrar que HTML, CSS y Bootstrap que se puede simular lo más real posible como se vería una Página para una Inmobiliaria, las secciones que puede contener. La de Venta, mostrando las casas que están para comprarse o en alquiler, la Ubicación de la Inmobiliaria, contar un poco sobre el local, su historia, quienes trabajan allí y por último el Contacto, donde podés realizar tus consultas, y mostrándole al cliente que se puede comunicar por otros medios como Redes Sociales, Teléfono o facilitándole un mail. </p>
+<p> Cuenta con Diseño Responsive para Desktop, Mobile y Tablet, imágenes optimizadas, animaciones sutiles y muchos más! </p>
 
 <br />
 
